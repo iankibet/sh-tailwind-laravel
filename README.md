@@ -1,4 +1,4 @@
-# Pius Videos
+# Sh Tailwind Laravel
 
 A full-stack application template built on **Laravel 13** + **Vue 3**, using the **Streamline** convention as the API transport instead of conventional controllers and route files. The frontend is a Vue SPA served from a single Blade view; everything else is data fetched over Streamline.
 
