@@ -1,0 +1,10 @@
+{
+    "main": "admin/users",
+    "roles": ["admin"],
+    "children": {
+        "list": {
+            "main": "list",
+            "roles": ["admin"]
+        }
+    }
+}

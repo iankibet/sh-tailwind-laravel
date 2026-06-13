@@ -1,0 +1,12 @@
+{
+    "main": "admin/admins",
+    "roles": ["admin"],
+    "children": {
+        "list": { "main": "list", "roles": ["admin"] },
+        "view": { "main": "get", "roles": ["admin"] },
+        "create": { "main": "save", "roles": ["admin"] },
+        "update": { "main": "save", "roles": ["admin"] },
+        "reset_password": { "main": "reset-password", "roles": ["admin"] },
+        "delete": { "main": "delete", "roles": ["admin"] }
+    }
+}

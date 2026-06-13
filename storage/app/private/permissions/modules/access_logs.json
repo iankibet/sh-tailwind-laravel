@@ -1,0 +1,10 @@
+{
+    "main": "admin/access-logs",
+    "roles": ["admin"],
+    "children": {
+        "list": {
+            "main": "list",
+            "roles": ["admin"]
+        }
+    }
+}

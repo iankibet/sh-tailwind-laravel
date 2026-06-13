@@ -1,0 +1,16 @@
+{
+    "main": "admin/departments",
+    "roles": ["admin"],
+    "children": {
+        "list": { "main": "list", "roles": ["admin"] },
+        "view": { "main": "get", "roles": ["admin"] },
+        "create": { "main": "create", "roles": ["admin"] },
+        "update": { "main": "updateDetails", "roles": ["admin"] },
+        "delete": { "main": "delete", "roles": ["admin"] },
+        "manage_permissions": {
+            "main": "permissions",
+            "roles": ["admin"],
+            "urls": ["permission-options", "sync-permissions", "save-module-permissions"]
+        }
+    }
+}
